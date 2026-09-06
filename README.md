@@ -68,6 +68,4 @@ flowchart LR
 ## Links
 
 - [GitHub Profile — ShinInHa12](https://github.com/ShinInHa12)
-- **Notion Portfolio:** 공개 링크 준비 중
-
-<!-- NOTION_PORTFOLIO_URL: 공개 URL 확인 후 위 Notion Portfolio 항목에 연결합니다. -->
+- **Notion Portfolio:** [신인하 | Game Programmer Portfolio](https://efficient-van-803.notion.site/GAME-PROGRAMMER-PORTFOLIO-3d32ad00104a81fda6a5dc07059688c4?pvs=143)
