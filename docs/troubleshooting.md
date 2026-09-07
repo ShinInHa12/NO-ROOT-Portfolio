@@ -6,12 +6,12 @@ NO-ROOT에서 다루는 Runtime 디버깅 사례와 상태 검증 관점을 정�
 
 ## 사례 공개 상태
 
-현재는 아래 두 사례의 이름과 조사·검증 관점을 공개합니다. 상세 재현 조건, 원인, 수정 내용, 로그 및 수정 후 검증 결과는 공개 가능한 근거를 선별한 뒤 추가할 예정입니다. 아래 점검 항목은 확인 계획이며, 이미 증명된 원인이나 검증 통과 결과를 뜻하지 않습니다.
+아래 두 사례의 원인, 선별한 실제 수정 diff와 회귀 검사 설명을 [수정 전후 근거](evidence/troubleshooting.md)에 공개했습니다. 이 문서의 점검 항목은 조사·검증 관점이며, 새로 실행한 테스트 결과가 아닙니다. 코드의 존재와 실제 Unity 실행 통과는 구분합니다.
 
 | 사례 | 다루는 주제 | 현재 공개 범위 |
 | --- | --- | --- |
-| **HumanQMissing** | Human 성장 상태와 Ability Runtime 연결 | 사례명 및 조사·검증 관점 |
-| **Final Boss progression issue** | 최종 보스에 이르는 진행 흐름 | 사례명 및 조사·검증 관점 |
+| **HumanQMissing** | Human 성장 일정과 Validator 계약의 불일치 | 실제 삭제 diff, 원본 커밋, 회귀 검사 설명 |
+| **Final Boss progression issue** | Source 결정 이후 갱신되지 않은 진행 Gate | 실제 추가 diff, 콜백·PlayMode assertion 발췌 |
 
 ## HumanQMissing
 
@@ -25,7 +25,7 @@ NO-ROOT에서 다루는 Runtime 디버깅 사례와 상태 검증 관점을 정�
 - 최초 진입, Retry, Restore 각각에서 같은 상태를 재현할 수 있는지
 - 수정한 조건과 인접한 성장 조건에서 다른 능력 연결이 유지되는지
 
-**상세 원인 / 수정 / 검증 결과:** 공개 근거 정리 후 추가 예정
+**상세 원인 / 수정:** [HumanQMissing 수정 근거](evidence/troubleshooting.md#humanqmissing). 이번 공개 작업에서 실행 결과를 새로 측정하지 않았습니다.
 
 ## Final Boss progression issue
 
@@ -39,7 +39,7 @@ NO-ROOT에서 다루는 Runtime 디버깅 사례와 상태 검증 관점을 정�
 - 보스 관련 동작에 필요한 선행 조건이 전달되는지
 - 정상 진행, 저장 후 Restore, Retry에서 진행 흐름이 유지되는지
 
-**상세 원인 / 수정 / 검증 결과:** 공개 근거 정리 후 추가 예정
+**상세 원인 / 수정:** [Final handoff gate 수정 근거](evidence/troubleshooting.md#final-handoff-gate). 이번 공개 작업에서 실행 결과를 새로 측정하지 않았습니다.
 
 ## Persistence / Retry / Restore 검증 관점
 

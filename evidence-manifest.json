@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "artifact_type": "PUBLIC_SOURCE_EXCERPTS",
+  "target_repository": "ShinInHa12/NO-ROOT-Portfolio",
+  "source_commit": "309b096c21fbb854fe21997ec46463817340925b",
+  "source_repository_policy": "PRIVATE_UNMODIFIED",
+  "standalone": false,
+  "unity_execution": "NOT_EXECUTED",
+  "excerpt_hash_format": "SHA-256 of UTF-8 code block content after dedent with LF and one trailing newline",
+  "samples": [
+    {"name":"AbilityLoadoutState","source_path":"Assets/Game/V1/Abilities/Runtime/AbilityLoadoutState.cs","source_blob_sha":"bf719c4c9cd846c49b3349f8285e5a71ecf55d72","public_file_path":"code-samples/AbilityLoadoutState.md","excerpt_sha256":"372f79b92919120f95dc13cee1c4f65c208590e20817ff0a32c3a436f872e972"},
+    {"name":"HumanHeavyStrikeRuntimeExecutor","source_path":"Assets/Game/V1/Abilities/Runtime/HumanHeavyStrikeRuntimeExecutor.cs","source_blob_sha":"798ac6b176cbbf9907929defa217c11acfb84465","public_file_path":"code-samples/HumanHeavyStrikeRuntimeExecutor.md","excerpt_sha256":"0f35e6613d09bc35d8e39236b0ab833b2d6ce67978efe8f370294a711e78ac42"},
+    {"name":"HumanMainGrowthFlow","source_path":"Assets/Game/V1/Build/Runtime/HumanMainGrowthFlow.cs","source_blob_sha":"8fc43b495b059d688569e937d1638f54b43d1177","public_file_path":"code-samples/HumanMainGrowthFlow.md","excerpt_sha256":"0060308ebdb8f40d8d588068c44f7a0753e7bffc00124010781b5dde6c7cc080"},
+    {"name":"SourceBuildAbilityGrowthTests","source_path":"Assets/Game/V1/Tests/EditMode/SourceBuildAbilityGrowthTests.cs","source_blob_sha":"d6b633b340fd10954925856aff9fa2bdfd1a1dbc","public_file_path":"code-samples/SourceBuildAbilityGrowthTests.md","excerpt_sha256":"1c1524827cc878eb43cbdeb903d436fd672dc620ea78cbdff80fc80611672177"},
+    {"name":"DeterministicRunHybridPathGateway","source_path":"Assets/Game/V1/Run/Runtime/DeterministicRunHybridPathGateway.cs","source_blob_sha":"b857b4a624d67f255c790ca3ce3c7307b7f8f459","public_file_path":"code-samples/DeterministicRunHybridPathGateway.md","excerpt_sha256":"2ed3caa158cac34bf8d488fae00806af95a51b92a48be13c1c1c8a920e72730c"},
+    {"name":"RunController","source_path":"Assets/Game/V1/Run/Runtime/RunController.cs","source_blob_sha":"a1000d6f1a24a1167241fd2d77ee0a5e5c6de62a","public_file_path":"code-samples/RunController.md","excerpt_sha256":"3c431f5e0b763405563dc14834aa841317559657df4733ad521f46175e0cc295"},
+    {"name":"RunCommitLedger","source_path":"Assets/Game/V1/Run/Runtime/RunCommitLedger.cs","source_blob_sha":"50563a34e9233189b1105b92d81ba6646f5b68e8","public_file_path":"code-samples/RunCommitLedger.md","excerpt_sha256":"6388c10e3404f6a33299ea039dfdc0831234a47e2108435e5a03a7fddd678fe8"},
+    {"name":"RunControllerHybridPathIntegrationTests","source_path":"Assets/Game/V1/Tests/EditMode/RunControllerHybridPathIntegrationTests.cs","source_blob_sha":"bf0724cfe22aca680bf4272f7a328121e131ad7f","public_file_path":"code-samples/RunControllerHybridPathIntegrationTests.md","excerpt_sha256":"429464856af959024845906b5e4d919f0a20ab04d1b750598550f38cfb01221f"},
+    {"name":"HumanAbilityValidationHarness","source_path":"Assets/Game/V1/Abilities/Runtime/HumanAbilityValidationHarness.cs","source_blob_sha":"9f96f3be648414ea7b8af5bd8cdceafa30df2b41","public_file_path":"code-samples/HumanAbilityValidationHarness.md","excerpt_sha256":"a1b5668a0427271066542da869d9e89b092a9169f9868626b08163bce49b1897"},
+    {"name":"HumanAuthoredRuntimeIntegrationTests","source_path":"Assets/Game/V1/Tests/EditMode/HumanAuthoredRuntimeIntegrationTests.cs","source_blob_sha":"5ab1949494618777880b1e2e03ee4798c8362e39","public_file_path":"code-samples/HumanAuthoredRuntimeIntegrationTests.md","excerpt_sha256":"f581ef059df2243c8ffeee12852b95c95c7f3dd9226c5b8e90e9944a7c0c8d9c"},
+    {"name":"V1ProgressionDirector","source_path":"Assets/Game/V1/Progression/Runtime/V1ProgressionDirector.cs","source_blob_sha":"0c6b1e421dee66a083e41525dd9ecdda9c20449e","public_file_path":"code-samples/V1ProgressionDirector.md","excerpt_sha256":"8d767274e82973b075862b7bbc1084811b91426546f37ad89aff97c3a8382f78"},
+    {"name":"StageFiveFinalRunFlowTests","source_path":"Assets/Game/V1/Tests/PlayMode/StageFiveFinalRunFlowTests.cs","source_blob_sha":"7f8441bd36c7c2ef6a8d3410c70ca60b0a0f4be0","public_file_path":"code-samples/StageFiveFinalRunFlowTests.md","excerpt_sha256":"4b7380146c5ce1bf5fe82445eb14d904f45dd588f30bab6cadb78d3039e8cb5e"}
+  ]
+}

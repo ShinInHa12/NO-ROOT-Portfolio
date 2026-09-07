@@ -27,7 +27,7 @@
 
 ## Architecture at a Glance
 
-아래는 원정 경로 선택의 **개념 흐름**입니다. 실제 클래스 구성이나 저장 형식을 나타내는 코드는 포함하지 않습니다.
+아래는 원정 경로 선택의 **개념 흐름**입니다. 실제 구현 발췌는 별도의 [Code Samples](code-samples/README.md)에서 확인할 수 있습니다.
 
 ```mermaid
 flowchart LR
@@ -46,9 +46,11 @@ flowchart LR
 | 문서 | 살펴볼 내용 |
 | --- | --- |
 | [Architecture](docs/architecture.md) | 전투 실행 단계, 성장 분기, 원정 선택, 저장·복원의 상태와 책임 |
-| [Troubleshooting](docs/troubleshooting.md) | HumanQMissing / Final Boss 진행 문제의 사례 목록과 검증 관점 |
+| [Troubleshooting](docs/troubleshooting.md) | HumanQMissing / Final Boss 진행 문제의 사례와 검증 관점 |
+| [수정 전후 근거](docs/evidence/troubleshooting.md) | 실제 수정 커밋 2건의 선별 diff와 회귀 검사 설명 |
 | [Development Workflow](docs/development-workflow.md) | 요구사항부터 구현, 검증, Git 기록, Unity 통합 확인까지의 과정 |
-| [Code Samples](code-samples/README.md) | 공개 코드 샘플의 준비 상태와 선별 기준 |
+| [Code Samples](code-samples/README.md) | 원본 12개 파일의 코드·테스트 발췌, 출처와 생략 범위 |
+| [Evidence Manifest](evidence-manifest.json) | 원본 파일·Blob SHA와 발췌 코드 SHA-256 목록 |
 | [Images & Gameplay](images/README.md) | 스크린샷·GIF·플레이 영상의 준비 상태 |
 
 ## Development Workflow
@@ -61,9 +63,9 @@ flowchart LR
 
 원본 개발 저장소 **`ShinInHa12/My-project`는 Private으로 유지**합니다. 이 공개 저장소는 NO-ROOT의 기술 소개, 설계 문서, 선별된 코드 샘플을 위한 별도 포트폴리오입니다.
 
-현재 공개 내용은 새로 작성한 Markdown 문서입니다. 코드 샘플, 이미지, 플레이 영상은 공개 범위 확인 후 추가할 예정입니다. 전체 Unity 프로젝트, 원본 private code, 외부·유료 Unity Asset 및 라이선스가 확인되지 않은 파일은 포함하지 않습니다.
+현재 공개 내용은 설계 문서, 원본 12개 파일에서 선별한 코드·테스트 발췌, 실제 수정 diff 2건입니다. 각 문서에 원본 파일·기준 커밋·생략 범위를 표기했습니다. 이미지와 플레이 영상은 공개 범위 확인 후 추가할 예정입니다. 전체 Unity 프로젝트, 원본 Git 이력, 외부·유료 Unity Asset, 인증 정보 및 라이선스가 확인되지 않은 파일은 포함하지 않습니다.
 
-이 저장소만으로 게임을 빌드하거나 실행할 수는 없습니다.
+이 저장소만으로 게임을 빌드하거나 실행할 수는 없습니다. 코드 발췌는 읽기용이며, 이번 증빙 공개 작업에서는 Unity 컴파일·Test Runner·실제 플레이를 실행하지 않았습니다.
 
 ## Links
 
